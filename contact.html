@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="TrungTrung Karma 联系方式、地址和营业信息。" />
+    <title>联系我们 | TrungTrung Karma</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <div class="brand-block">
+                <div class="brand-mark">TT</div>
+                <div class="brand-copy">
+                    <span class="brand-name">TrungTrung Karma</span>
+                    <span class="brand-sub">Restaurant Thaï</span>
+                </div>
+            </div>
+            <button class="menu-toggle" aria-label="打开菜单" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="main-nav">
+                <a href="index.html">首页 / Home</a>
+                <a href="about.html">关于我们 / About</a>
+                <a href="menu.html">菜单 / Menu</a>
+                <a href="gallery.html">环境 / Gallery</a>
+                <a href="reservation.html">预约 / Reservation</a>
+                <a href="contact.html">联系 / Contact</a>
+                <a href="reservation.html" class="btn btn-primary">预约 / Book</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <h1>联系我们 / Contact Us</h1>
+                <p>有任何问题或合作咨询，欢迎与我们联系</p>
+            </div>
+        </section>
+
+        <section class="section contact">
+            <div class="container contact-wrap">
+                <div class="contact-info">
+                    <h2>联系方式 / Contact Information</h2>
+                    <p>如果您有任何问题、预订需求或合作咨询，欢迎随时与我们联系。</p>
+                    <p>For inquiries, reservations, or collaboration requests, please feel free to contact us at any time.</p>
+
+                    <div class="info-box">
+                        <h3>📍 地址 / Address</h3>
+                        <p>上海市静安区某某路88号</p>
+                        <p>No. 88, XXX Road, Jing'an District, Shanghai</p>
+                    </div>
+
+                    <div class="info-box">
+                        <h3>📞 电话 / Phone</h3>
+                        <p><a href="tel:+86138000000">+86 138 0000 0000</a></p>
+                    </div>
+
+                    <div class="info-box">
+                        <h3>📧 邮箱 / Email</h3>
+                        <p><a href="mailto:hello@trungtrungkarma.com">hello@trungtrungkarma.com</a></p>
+                    </div>
+
+                    <div class="info-box">
+                        <h3>🕐 营业时间 / Hours</h3>
+                        <p>周一至周日 / Monday to Sunday</p>
+                        <p>11:30 AM - 10:30 PM</p>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <h2>留言 / Message</h2>
+                    <label>
+                        姓名 / Name
+                        <input type="text" name="name" placeholder="请输入姓名" required />
+                    </label>
+
+                    <label>
+                        邮箱 / Email
+                        <input type="email" name="email" placeholder="请输入邮箱" required />
+                    </label>
+
+                    <label>
+                        电话 / Phone
+                        <input type="tel" name="phone" placeholder="请输入电话" />
+                    </label>
+
+                    <label>
+                        主题 / Subject
+                        <select name="subject" required>
+                            <option>预订 / Reservation</option>
+                            <option>咨询 / Inquiry</option>
+                            <option>合作 / Partnership</option>
+                            <option>建议 / Feedback</option>
+                        </select>
+                    </label>
+
+                    <label>
+                        留言 / Message
+                        <textarea name="message" rows="5" placeholder="请输入您的留言" required></textarea>
+                    </label>
+
+                    <button type="submit" class="btn btn-primary">发送 / Send</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="section faq">
+            <div class="container">
+                <div class="section-head">
+                    <h2>常见问题 / FAQ</h2>
+                </div>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>是否支持在线预约？</h3>
+                        <p>是的，我们支持在线预约和电话预约。</p>
+                        <p class="en">Do you support online reservations?</p>
+                        <p class="en">Yes, we support both online and phone reservations.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>是否提供包间？</h3>
+                        <p>是的，我们提供多个私人包间，适合家庭聚餐、商务宴请和约会场景。</p>
+                        <p class="en">Do you offer private rooms?</p>
+                        <p class="en">Yes, we offer multiple private rooms for various occasions.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>是否支持团体订餐？</h3>
+                        <p>可以，我们为团体订餐和商务活动提供定制套餐。</p>
+                        <p class="en">Do you offer group dining?</p>
+                        <p class="en">Yes, we provide customized menus for groups and events.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>是否支持外卖？</h3>
+                        <p>部分区域支持外卖服务，具体请咨询前台。</p>
+                        <p class="en">Do you offer takeaway?</p>
+                        <p class="en">Some areas support takeaway services. Please contact us for details.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-wrap">
+            <div>
+                <div class="brand-block">
+                    <div class="brand-mark">TT</div>
+                    <div class="brand-copy">
+                        <span class="brand-name">TrungTrung Karma</span>
+                        <span class="brand-sub">Restaurant Thaï</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-links">
+                <a href="about.html">关于我们</a>
+                <a href="menu.html">菜单</a>
+                <a href="gallery.html">环境</a>
+                <a href="reservation.html">预约</a>
+            </div>
+            <div class="footer-copy">© <span id="year"></span> TrungTrung Karma</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
